@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shravan's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1>Shravan's Portfolio</h1>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="description">
+            <h3>Hi, My name is <span>Shravan</span><br>and I am a passionate</h3>
+            <div id="element-container">
+                <span id="element"></span>
+            </div>
+            <div>
+                <a href="Shravan Resume.pdf"><button class="downloadbtn">Download Resume</button></a>
+            </div>
+        </div>
+    </div>
+
+    <!-----------------------------------------aboutme--------------------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col">
+                    <h2 class="about-me">About Me</h2>
+                    <p>Hello, I'm Shravan, a dedicated Frontend Web Developer and Web Designer based in Hyderabad,
+                        Telangana. While my academic background lies in Electrical and Electronics Engineering, my true
+                        passion lies in the world of web development. I embarked on this exciting journey through
+                        various learning platforms like YouTube and Udemy.<br>
+                        <br>
+                        My quest for knowledge led me to acquire a diverse skill set, enabling me to craft compelling
+                        and functional websites. The culmination of my efforts is showcased in the projects you see
+                        here. I am wholeheartedly committed to my goal of excelling in web development and am excited to
+                        take the next step in my career.<br>
+                        <br>
+                        I invite you to explore my portfolio to see the results of my hard work and dedication. If you
+                        believe I could be a valuable addition to your team, please consider me for any suitable
+                        positions in your company as I look forward to beginning my career in the IT industry.
+                    </p>
+                </div>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('programmingskills')">Programming Skills</p>
+                    <p class="tab-links" onclick="opentab('interests')">Interests</p>
+                </div>
+                <div class="tab-contents active-tab" id="education">
+                    <ul>
+                        <li><span class="tab-content-title">B.Tech</span> | Electrical and ELectronics
+                            Engineering<br>Jaya Prakash Narayan College of Engineering<br>2019-2022</li>
+                        <li><span class="tab-content-title">Diploma</span> | Electrical and ELectronics
+                            Engineering<br>Jaya Prakash Narayan College of Engineering<br>2016-2019</li>
+                        <li><span class="tab-content-title">SSC</span> | 10th Class<br>New Rishi High
+                            School<br>2015-2016</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="programmingskills">
+                    <ul>
+                        <li><span class="tab-content-title">Python</span></li>
+                        <li><span class="tab-content-title">HTML</span></li>
+                        <li><span class="tab-content-title">CSS</span></li>
+                        <li><span class="tab-content-title">JavaScript</span></li>
+                        <li><span class="tab-content-title">MS Office</span></li>
+                        <li><span class="tab-content-title">Github</span></li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="interests">
+                    <ul>
+                        <li><span class="tab-content-title">Auto Mobile</span><br>I've always had a deep fascination for
+                            the world of automobiles, my fascination with automobiles extends to my professional life as
+                            well. It's a field that continually inspires me, pushing me to explore the intersection of
+                            technology and transportation and its potential to reshape our world.</li>
+                        <li><span class="tab-content-title">Photography & Videography</span><br>Dedicated to capturing
+                            the beauty of nature and candid moments through photography and videography.</li>
+                        <li><span class="tab-content-title">Gaming</span><br>Gaming has been an integral part of my life
+                            and has greatly influenced my personal and professional journey. From a young age, I
+                            discovered that gaming is not merely a form of entertainment, but a realm where creativity,
+                            strategy, and technology converge.</li>
+                        <li><span class="tab-content-title">Learning New Technologies</span><br>Passionate about staying
+                                at the forefront of emerging technologies.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------------------------------------Projects--------------------------------------->
+    <div id="projects">
+        <div class="container">
+            <h2 class="sub-title">Projects</h2>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Digital clock.png">
+                    <div class="layer">
+                        <h3>Digital Clock</h3>
+                        <p>The site shows the Indian Standard Time in a Digital way with a beautiful background</p>
+                        <a href="https://shravan0842.github.io/Digital-Clock/"><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                    <h3>Digital Clock</h3>
+                </div>
+                <div class="work">
+                    <img src="weather.png">
+                    <div class="layer">
+                        <h3>Online Weather</h3>
+                        <p>The site showcase the Weather of different cities and also converts Temperature from °C to °F </p>
+                        <a href="https://shravan0842.github.io/Weather/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                    <h3>Weather</h3>
+                </div>
+                <div class="work">
+                    <img src="spotifybanner.png">
+                    <div class="layer">
+                        <h3>Spotify Clone</h3>
+                        <p>The site showcase the Spotify music player with my Most Favourite Music Director and Singer</p>
+                        <a href="https://shravan0842.github.io/Spotify/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                    <h3>Spotify Clone</h3>
+                </div>
+                <div class="work">
+                    <img src="Calculator.png">
+                    <div class="layer">
+                        <h3>Online Calculator</h3>
+                        <p>A simple online calculator built using HTML5 CSS3 & JavaScript </p>
+                        <a href="https://shravan0842.github.io/Calculator/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                    <h3>Calculator</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-----------------------------------------contact me--------------------------------------->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>Lshravan2904@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91 8328134376</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/shravan-kumar-99580a255/"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://api.whatsapp.com/send?phone=918328134376"><i
+                                class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="submitbtn">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="fa-regular fa-copyright"></i> Shravan. Made with <i class="fa-solid fa-heart"></i>
+            </p>
+        </div>
+    </div>
+
+</body>
+
+<! animation script below>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script>
+        var strings = ['Front End Developer', 'Web Designer', 'Video Editor'];
+        var element = document.getElementById('element');
+        var currentIndex = 0;
+
+        function typeString() {
+            var currentString = strings[currentIndex];
+            var currentIndexChar = 0;
+
+            function typeCharacter() {
+                if (currentIndexChar < currentString.length) {
+                    element.textContent += currentString.charAt(currentIndexChar);
+                    currentIndexChar++;
+                    setTimeout(typeCharacter, 50); // Adjust typing speed here
+                } else {
+                    setTimeout(eraseString, 1000); // Adjust delay before erasing here
+                }
+            }
+
+            typeCharacter();
+        }
+
+        function eraseString() {
+            var currentString = element.textContent;
+            if (currentString.length > 0) {
+                currentString = currentString.slice(0, -1);
+                element.textContent = currentString;
+                setTimeout(eraseString, 25); // Adjust erasing speed here
+            } else {
+                currentIndex = (currentIndex + 1) % strings.length;
+                setTimeout(typeString, 1000); // Adjust delay before typing the next string here
+            }
+        }
+
+        typeString(); // Start the loop
+    </script>
+
+    <! about section script>
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname) {
+                for (tablink of tablinks) {
+                    tablink.classList.remove("active-link");
+                }
+                for (tabcontent of tabcontents) {
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab")
+            }
+        </script>
+
+        <! contact section script>
+            <script>
+                const scriptURL = 'https://script.google.com/macros/s/AKfycbxf7NmrWwsCqaBtG_ugIakWz0zLO21Wo2QQW5lB65YQ-YqYqetOjQEPuaO7zMZYU5jA/exec'
+                const form = document.forms['submit-to-google-sheet']
+                const msg = document.getElementById("msg")
+
+                form.addEventListener('submit', e => {
+                    e.preventDefault()
+                    fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                        .then(response => {
+                            msg.innerHTML = "Message sent successfully"
+                            setTimeout(function () {
+                                msg.innerHTML = ""
+                            }, 5000)
+                            form.reset()
+                        })
+                        .catch(error => console.error('Error!', error.message))
+                })
+            </script>
+
+</html>
